@@ -1,0 +1,1 @@
+$("#previewModal").on("show.bs.modal",function(a){var b=$(a.relatedTarget),c=b.data("image-url"),d=b.data("title"),e=$(this);e.find(".modal-image").attr("src",c),e.find(".modal-title").text(d)});
